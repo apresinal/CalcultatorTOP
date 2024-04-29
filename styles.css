@@ -8,9 +8,10 @@ body {
     margin: 50px auto;
     background-color: #fff;
     border: 2px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .display {
@@ -19,7 +20,8 @@ body {
     background-color: #f9f9f9;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   button {
@@ -29,6 +31,7 @@ body {
     font-size: 18px;
     border: none;
     background-color: #e0e0e0;
+    border-radius: 10px;
     cursor: pointer;
   }
   
@@ -47,4 +50,3 @@ body {
   .clear {
     background-color: #aaaaff;
   }
-  
